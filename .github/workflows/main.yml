@@ -1,0 +1,17 @@
+name: Olá mundo
+
+on: [push]
+
+jobs:
+  dizer-ola:
+
+      runs-on: ubuntu-latest
+      
+      steps:
+
+        -name: Imprime uma mensagem no console
+          run: echo "Olá mundo! Esta é a minha primeira github Action."
+
+        -name: Imprime outra mensagem
+          run: echo "Até a próxima automação!"
+      
